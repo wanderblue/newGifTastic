@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Giphy Animal Buttons</title>
+  <meta charset="utf-8">
+<!-- Bootswatch Styling for Improving the Aesthetics -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+<!-- Font Awesome CSS Icons (For cool glyphicons) -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <!-- Style to fix the issue of text extending past panel length -->
+   
+	<link rel="stylesheet" href="assets/css/reset.css">	
+	<link rel="stylesheet" href="assets/css/style.css">	
+
+</head>
+<body >
+
+
+  <!-- Jumbotron for Title -->
+  <div class="jumbotron" style="background-color: #20315A ; color: white;">
+      <h4 class="text-center"><strong>GIPHYs Search</strong></h4>
+    </div>
+  
+</div>
+
+<!--button group -->
+<div class="row">
+    <div class="col-sm-9">
+      <div class="container btnContainer">
+         <div class="btn-group inline pull-left">
+     
+            <div id="myButtons"></div>
+        </div>
+     </div> 
+ </div> 
+ <div class="col-sm-3">
+
+    <form  class="form-inline my-2 my-lg-0">
+        <div class="form-group">
+            <div class="row">
+              <label for="animalInput">Add an animal</label>
+            </div> 
+            <div class="row">
+            <input type="text" id="animalInput">
+            <div>
+    </div>
+<!-- Button  to be added -->
+      <input id="addanimal" type="submit" value="submit">
+     
+   </form>
+  </div> 
+</div> 
+</div>
+<div class="row">
+
+</br></br></br>
+</br></br></br>
+</div>
+<!--image area -->
+<div class="row">
+<div class="container">
+
+    
+
+      <div class="col-container">
+         <span><div id="gifArea"></div></span>
+      </div>
+    
+</div> 
+
+<div>
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script> 
+
+</body>
+</html>
